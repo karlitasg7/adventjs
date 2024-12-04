@@ -1,4 +1,4 @@
-const { organizeInventory } = require("../../src/2024/day3");
+const { organizeInventory } = require("../../src/2024/day3/solution");
 
 describe("Day 03 - Organizing the inventory", () => {
   test("return empty if array is empty", () => {

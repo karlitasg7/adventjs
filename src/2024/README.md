@@ -1,0 +1,9 @@
+# 2024
+
+## [Day 1: First gift repeated!](./day1)
+
+## [Day 2: Framing names](./day2)
+
+## [Day 3: Organizing the inventory](./day3)
+
+## [Day 4: Decorating the Crhistmas tree](./day4)

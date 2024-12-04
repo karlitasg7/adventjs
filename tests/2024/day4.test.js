@@ -1,4 +1,4 @@
-const { createXmasTree } = require("../../src/2024/day4");
+const { createXmasTree } = require("../../src/2024/day4/solution");
 
 describe("Day 04 - Decorating the Christmas tree", () => {
   test('test 1"', () => {

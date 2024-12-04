@@ -1,4 +1,4 @@
-const { createFrame } = require("../../src/2024/day2");
+const { createFrame } = require("../../src/2024/day2/solution");
 
 describe("Day 02 - Framing names", () => {
   test('return with "[midu, madeval, educalvolpz]"', () => {

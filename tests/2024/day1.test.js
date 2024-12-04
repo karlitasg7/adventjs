@@ -1,4 +1,4 @@
-const { prepareGifts } = require("../../src/2024/day1");
+const { prepareGifts } = require("../../src/2024/day1/solution");
 
 describe("Day 01 - First gift repeated", () => {
   test('should return "[1, 2, 3, 4, 5]" with "[3, 1, 2, 3, 4, 2, 5]"', () => {
