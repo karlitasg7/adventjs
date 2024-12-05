@@ -7,3 +7,5 @@
 ## [Day 3: Organizing the inventory](./day3)
 
 ## [Day 4: Decorating the Crhistmas tree](./day4)
+
+## [Day 5: Show pairing](./day5)
