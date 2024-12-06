@@ -9,3 +9,5 @@
 ## [Day 4: Decorating the Crhistmas tree](./day4)
 
 ## [Day 5: Show pairing](./day5)
+
+## [Day 6: Is the gift inside the box?](./day6)
