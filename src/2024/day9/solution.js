@@ -1,58 +1,24 @@
 function moveTrain(board, mov) {
-  let train = { x: 0, y: 0 };
+  const DIRECTIONS = {
+    U: [-1, 0],
+    D: [1, 0],
+    L: [0, -1],
+    R: [0, 1],
+  };
 
-  const rows = board.length;
-  const cols = board[0].length;
+  const DESTINATION = {
+    "*": "eat",
+    o: "crash",
+    undefined: "crash",
+    "·": "none",
+  };
 
-  for (let i = 0; i < rows; i++) {
-    if (board[i].includes("@")) {
-      train.y = i;
-      train.x = board[i].indexOf("@");
-      break;
-    }
-  }
+  const engineRow = board.findIndex((row) => row.includes("@"));
+  const engineCol = board[engineRow].indexOf("@");
 
-  if (mov === "U") {
-    if (train.y === 0 || board[train.y - 1][train.x] === "o") {
-      return "crash";
-    }
-    if (board[train.y - 1][train.x] === "*") {
-      return "eat";
-    }
-    return "none";
-  }
+  const [dy, dx] = DIRECTIONS[mov];
 
-  if (mov === "D") {
-    if (train.y === rows - 1 || board[train.y + 1][train.x] === "o") {
-      return "crash";
-    }
-    if (board[train.y + 1][train.x] === "*") {
-      return "eat";
-    }
-    return "none";
-  }
-
-  if (mov === "L") {
-    if (train.x === 0 || board[train.y][train.x - 1] === "o") {
-      return "crash";
-    }
-    if (board[train.y][train.x - 1] === "*") {
-      return "eat";
-    }
-    return "none";
-  }
-
-  if (mov === "R") {
-    if (train.x === cols - 1 || board[train.y][train.x + 1] === "o") {
-      return "crash";
-    }
-    if (board[train.y][train.x + 1] === "*") {
-      return "eat";
-    }
-    return "none";
-  }
-
-  return "none";
+  return DESTINATION[board[engineRow + dy]?.[engineCol + dx]];
 }
 
 module.exports = { moveTrain };
