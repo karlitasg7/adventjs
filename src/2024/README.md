@@ -13,3 +13,5 @@
 ## [Day 6: Is the gift inside the box?](./day6)
 
 ## [Day 7: The Grinch's attack](./day7)
+
+## [Day 8: The reno race](./day8)
