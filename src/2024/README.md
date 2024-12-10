@@ -17,3 +17,5 @@
 ## [Day 8: The reno race](./day8)
 
 ## [Day 9: The magic train](./day9)
+
+## [Day 10: The elfish assembler](./day10)
