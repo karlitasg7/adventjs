@@ -1,24 +1,21 @@
 function organizeShoes(shoes) {
-  const groups = shoes.reduce((acc, shoe) => {
-    if (!acc[shoe.size]) {
-      acc[shoe.size] = { I: 0, R: 0 };
-    }
-    acc[shoe.size][shoe.type]++;
-    return acc;
-  }, {});
+  const result = [];
+  const groups = {};
 
-  const filterGroups = Object.keys(groups)
-    .filter((key) => groups[key].R > 0 && groups[key].I > 0)
-    .map(Number);
-
-  const finalResponse = [];
-
-  for (let i = 0; i < filterGroups.length; i++) {
-    const val = Math.min(groups[filterGroups[i]].I, groups[filterGroups[i]].R);
-    finalResponse.push(...Array(val).fill(filterGroups[i]));
+  for (const shoe of shoes) {
+    const { size, type } = shoe;
+    groups[size] ??= { I: 0, R: 0 };
+    groups[size][type]++;
   }
 
-  return finalResponse;
+  for (const size in groups) {
+    const { I, R } = groups[size];
+    if (I > 0 && R > 0) {
+      result.push(...Array(Math.min(I, R)).fill(Number(size)));
+    }
+  }
+
+  return result;
 }
 
 module.exports = { organizeShoes };
