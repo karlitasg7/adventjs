@@ -11,9 +11,9 @@ npm run test
 
 ### How to run specific test (Test works since year 2024)
 
-`npm run test {year}/day{number}`
+`npm run test {year}/day{number}.test`
 
-Example `npm run test 2024/day1`
+Example `npm run test 2024/day1.test`
 
 ---
 
