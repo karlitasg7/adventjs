@@ -1,20 +1,17 @@
 function organizeShoes(shoes) {
+  const shoesMap = {};
   const result = [];
-  const groups = {};
+  const shoesTypes = { I: "R", R: "I" };
 
-  for (const shoe of shoes) {
-    const { size, type } = shoe;
-    groups[size] ??= { I: 0, R: 0 };
-    groups[size][type]++;
-  }
-
-  for (const size in groups) {
-    const { I, R } = groups[size];
-    if (I > 0 && R > 0) {
-      result.push(...Array(Math.min(I, R)).fill(Number(size)));
+  shoes.forEach(({ type, size }) => {
+    shoesMap[size] ??= { I: 0, R: 0 };
+    shoesMap[size][type]++;
+    if (shoesMap[size][type] > 0 && shoesMap[size][shoesTypes[type]] > 0) {
+      result.push(size);
+      shoesMap[size][type]--;
+      shoesMap[size][shoesTypes[type]]--;
     }
-  }
-
+  });
   return result;
 }
 
