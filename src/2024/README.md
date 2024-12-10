@@ -19,3 +19,5 @@
 ## [Day 9: The magic train](./day9)
 
 ## [Day 10: The elfish assembler](./day10)
+
+## [Day 11: Filenames encoded](./day11)
