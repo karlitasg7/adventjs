@@ -7,22 +7,14 @@ function calculatePrice(ornaments) {
     "@": 100,
   };
 
-  let sum = 0;
-
-  for (let i = 0; i < ornaments.length; i++) {
-    const currentPrice = PRICES[ornaments[i]];
-    if (currentPrice === undefined) return undefined;
-
-    const nextPrice = PRICES[ornaments[i + 1]];
-
-    if (nextPrice !== undefined && nextPrice > currentPrice) {
-      sum -= currentPrice;
-    } else {
-      sum += currentPrice;
+  return ornaments.split("").reduce((acc, current, index, array) => {
+    if (!PRICES[current]) return;
+    if (PRICES[array[index + 1]] > PRICES[current]) {
+      return acc - PRICES[current];
     }
-  }
 
-  return sum;
+    return acc + PRICES[current];
+  }, 0);
 }
 
 module.exports = { calculatePrice };
