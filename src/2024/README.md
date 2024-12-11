@@ -21,3 +21,5 @@
 ## [Day 10: The elfish assembler](./day10)
 
 ## [Day 11: Filenames encoded](./day11)
+
+## [Day 12: How much does the tree cost?](./day12)
