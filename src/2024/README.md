@@ -25,3 +25,5 @@
 ## [Day 12: How much does the tree cost?](./day12)
 
 ## [Day 13: Is the robot back?](./day13)
+
+## [Day 14: Weaving the reno](./day14)
