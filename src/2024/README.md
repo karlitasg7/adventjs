@@ -27,3 +27,7 @@
 ## [Day 13: Is the robot back?](./day13)
 
 ## [Day 14: Weaving the reno](./day14)
+
+## [Day 15: Drawing tables](./day15)
+
+## [Day 16: cleaning the snow path](./day16)
