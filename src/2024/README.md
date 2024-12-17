@@ -31,3 +31,5 @@
 ## [Day 15: Drawing tables](./day15)
 
 ## [Day 16: cleaning the snow path](./day16)
+
+## [Day 17: Grinch's bombs](./day17)
