@@ -33,3 +33,5 @@
 ## [Day 16: cleaning the snow path](./day16)
 
 ## [Day 17: Grinch's bombs](./day17)
+
+## [Day 18: Santa's Magic Agenda](./day18)
