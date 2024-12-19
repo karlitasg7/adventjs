@@ -35,3 +35,5 @@
 ## [Day 17: Grinch's bombs](./day17)
 
 ## [Day 18: Santa's Magic Agenda](./day18)
+
+## [Day 19: Stack magical boxes to deliver gifts](./day19)
