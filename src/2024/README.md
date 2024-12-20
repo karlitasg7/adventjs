@@ -37,3 +37,5 @@
 ## [Day 18: Santa's Magic Agenda](./day18)
 
 ## [Day 19: Stack magical boxes to deliver gifts](./day19)
+
+## [Day 20: Find missing and duplicate gifts](./day20)
