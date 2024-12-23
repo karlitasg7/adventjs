@@ -43,3 +43,5 @@
 ## [Day 21: Calculate the height of the Christmas tree](./day21)
 
 ## [Day 22: Generate gift combinations](./day22)
+
+## [Day 23: Find the missing numbers](./day23)
