@@ -39,3 +39,5 @@
 ## [Day 19: Stack magical boxes to deliver gifts](./day19)
 
 ## [Day 20: Find missing and duplicate gifts](./day20)
+
+## [Day 21: Calculate the height of the Christmas tree](./day21)
