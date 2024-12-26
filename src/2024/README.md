@@ -45,3 +45,5 @@
 ## [Day 22: Generate gift combinations](./day22)
 
 ## [Day 23: Find the missing numbers](./day23)
+
+## [Day 24: Check if trees are magical mirrors](./day24)
