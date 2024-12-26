@@ -1,5 +1,7 @@
 # 2024
 
+![image](./image.png)
+
 ## [Day 1: First gift repeated!](./day1)
 
 ## [Day 2: Framing names](./day2)
