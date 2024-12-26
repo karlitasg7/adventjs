@@ -47,3 +47,5 @@
 ## [Day 23: Find the missing numbers](./day23)
 
 ## [Day 24: Check if trees are magical mirrors](./day24)
+
+## [Day 25: Execute the magical language](./day25)
