@@ -22,3 +22,5 @@ Example `npm run test 2024/day1.test`
 - [2023](./src/2023)
 
 - [2024](./src/2024)
+
+- [2025](./src/2025)
