@@ -5,3 +5,5 @@
 ## [Day 2: Manufacture the toys](./day2/)
 
 ## [Day 3: Help the intern](./day3/)
+
+## [Day 4: Decipher the santa PIN](./day4/)
