@@ -9,3 +9,5 @@
 ## [Day 4: Decipher the santa PIN](./day4/)
 
 ## [Day 5: The countdown to take off](./day5/)
+
+## [Day 6: Matching Gloves](./day6/)
