@@ -11,3 +11,5 @@
 ## [Day 5: The countdown to take off](./day5/)
 
 ## [Day 6: Matching Gloves](./day6/)
+
+## [Day 7: Decorating the tree](./day7/)
