@@ -13,3 +13,5 @@
 ## [Day 6: Matching Gloves](./day6/)
 
 ## [Day 7: Decorating the tree](./day7/)
+
+## [Day 8: Find the unique toy](./day8/)
