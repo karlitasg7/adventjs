@@ -17,3 +17,5 @@
 ## [Day 8: Find the unique toy](./day8/)
 
 ## [Day 9: The reno robot aspirator](./day9/)
+
+## [Day 10: Depth of christmas magic](./day10/)
