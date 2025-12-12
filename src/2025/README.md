@@ -21,3 +21,5 @@
 ## [Day 10: Depth of christmas magic](./day10/)
 
 ## [Day 11: Unwatched Gifts](./day11/)
+
+## [Day 12: ELF Battle](./day12/)
