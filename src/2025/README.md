@@ -25,3 +25,5 @@
 ## [Day 12: ELF Battle](./day12/)
 
 ## [Day 13: The assembly Line](./day13/)
+
+## [Day 14: Find the gift path](./day14/)
