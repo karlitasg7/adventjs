@@ -27,3 +27,5 @@
 ## [Day 13: The assembly Line](./day13/)
 
 ## [Day 14: Find the gift path](./day14/)
+
+## [Day 15: Drawing Tables](./day15/)
