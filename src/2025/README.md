@@ -29,3 +29,5 @@
 ## [Day 14: Find the gift path](./day14/)
 
 ## [Day 15: Drawing Tables](./day15/)
+
+## [Day 16: Packing gifts for Santa](./day16/)
