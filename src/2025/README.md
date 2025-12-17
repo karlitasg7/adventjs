@@ -31,3 +31,5 @@
 ## [Day 15: Drawing Tables](./day15/)
 
 ## [Day 16: Packing gifts for Santa](./day16/)
+
+## [Day 17: The christmas lights panel](./day17/)
