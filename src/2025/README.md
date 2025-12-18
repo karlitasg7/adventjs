@@ -33,3 +33,5 @@
 ## [Day 16: Packing gifts for Santa](./day16/)
 
 ## [Day 17: The christmas lights panel](./day17/)
+
+## [Day 18: Lights in line with diagonals](./day18/)
