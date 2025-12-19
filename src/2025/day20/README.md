@@ -1,4 +1,4 @@
-## Day 10
+## Day 20
 
 [Solution](./solution.js)
 

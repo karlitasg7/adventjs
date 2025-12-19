@@ -39,3 +39,5 @@
 ## [Day 19: Santa's secret journey](./day19/)
 
 ## [Day 20: Vertical warehouse](./day20/)
+
+## [Day 21: The cleaning robot](./day21/)
