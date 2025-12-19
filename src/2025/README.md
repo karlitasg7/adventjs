@@ -37,3 +37,5 @@
 ## [Day 18: Lights in line with diagonals](./day18/)
 
 ## [Day 19: Santa's secret journey](./day19/)
+
+## [Day 20: Vertical warehouse](./day20/)
