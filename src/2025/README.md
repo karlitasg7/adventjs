@@ -41,3 +41,5 @@
 ## [Day 20: Vertical warehouse](./day20/)
 
 ## [Day 21: The cleaning robot](./day21/)
+
+## [Day 22: The sleight maze](./day22/)
