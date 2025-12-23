@@ -43,3 +43,5 @@
 ## [Day 21: The cleaning robot](./day21/)
 
 ## [Day 22: The sleight maze](./day22/)
+
+## [Day 23: Gift route](./day23/)

@@ -1,4 +1,4 @@
-function canEscapeBFS(maze) {
+function canEscapeDFS(maze) {
   const findPosition = (maze, symbol) => {
     const row = maze.findIndex((row) => row.includes(symbol));
     const column = maze[row].indexOf(symbol);
