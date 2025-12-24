@@ -45,3 +45,5 @@
 ## [Day 22: The sleight maze](./day22/)
 
 ## [Day 23: Gift route](./day23/)
+
+## [Day 24: Check if trees are magical mirrors](./day24/)
